@@ -1,6 +1,8 @@
 # Minigrid
 Responsive and lightweight CSS grid
 
+Demo: https://htmlpreview.github.io/?https://github.com/codebambu/minigrid/blob/master/demo.html
+
 ## Installation
 Simply include `minigrid-min.css` into your website.
 

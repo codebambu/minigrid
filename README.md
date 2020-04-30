@@ -2,7 +2,9 @@
 Responsive and lightweight CSS grid
 
 ## Installation
-Simply include `minigrid.min.css` into your website.
+Simply include `minigrid-min.css` into your website.
+
+Alternatively you can include minigrid from `https://lakeport.000webhostapp.com/minigrid-min.css`
 
 ## Usage 
 ```

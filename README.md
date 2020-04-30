@@ -1,5 +1,5 @@
 # Minigrid
-Responsive and lightweight CSS grid at just 997 Bytes
+Responsive and lightweight CSS grid at just **997 Bytes**
 
 Demo: https://htmlpreview.github.io/?https://github.com/codebambu/minigrid/blob/master/demo.html
 

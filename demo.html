@@ -12,34 +12,51 @@
     .box {
       border: 1px solid turquoise;
       background: paleturquoise;
-      width: 100%;
-      color: #111;
+      height: 30px;
     }
-    .content {
-      padding: 15px;
+    .tall {
+      /* (3 * 30px) = 90px height */
+      /* (8 * 1px) = 8px border */
+      /* 90px + 8px = 98px */
+      height: calc(100vh - 98px); 
+    }
+    .footer {
+      position: fixed;
+      bottom: 0;
     }
   </style>
 </head>
 <body>
   <div class="row">
     <div class="col-12">
-      <h1>Website Title</h1>
+      <div class="box">
+        Header
+      </div>
     </div>
 
     <div class="col-12">
-      <a href="">Home</a>
-      |
-      <a href="">About</a>
-      |
-      <a href="">Contact</a>
+     <div class="box">
+       Navbar
+     </div>
     </div>
   </div>
   <div class="row">
     <div class="col-3">
-      sidebar
+      <div class="box tall">
+        Sidebar
+      </div>
     </div>
     <div class="col-9">
-      main content
+      <div class="box tall">
+        Content
+      </div>
+    </div>
+  </div>
+  <div class="row footer">
+    <div class="col-12">
+      <div class="box">
+        Footer
+      </div>
     </div>
   </div>
 </body>

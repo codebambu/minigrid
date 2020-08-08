@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Demo</title>
+  <title></title>
   <link rel="stylesheet" href="minigrid.css">
   <style>
-    html {
-      font-family: Arial;
-    }
     .box {
-      border: 1px solid turquoise;
-      background: paleturquoise;
-      height: 30px;
-    }
-    .tall {
-      /* (3 * 30px) = 90px height */
-      /* (8 * 1px) = 8px border */
-      /* 90px + 8px = 98px */
-      height: calc(100vh - 98px); 
-    }
-    .footer {
-      position: fixed;
-      bottom: 0;
+      background: #d0ffd0;
+      margin: 5px;
+      border-radius: 2px;
+      color: #3bcb3b;
+      overflow: auto;
     }
   </style>
 </head>
+
 <body>
   <div class="row">
-    <div class="col-12">
+    <div class="col col-12">
       <div class="box">
-        Header
+        <p>
+          Header
+        </p>
       </div>
     </div>
+  </div>
 
-    <div class="col-12">
-     <div class="box">
-       Navbar
-     </div>
-    </div>
-  </div>
   <div class="row">
-    <div class="col-3">
-      <div class="box tall">
-        Sidebar
-      </div>
-    </div>
-    <div class="col-9">
-      <div class="box tall">
-        Content
+    <div class="col col-12">
+      <div class="box">
+        <p>
+          Navigation
+        </p>
       </div>
     </div>
   </div>
-  <div class="row footer">
-    <div class="col-12">
+
+  <div class="row">
+    <div class="col col-3">
       <div class="box">
-        Footer
+        <p>
+          Sidebar
+        </p>
+      </div>
+    </div>
+    <div class="col col-9">
+      <div class="box">
+        <p>
+          Main
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-12 stick bottom">
+      <div class="box">
+        <p>Footer</p>
       </div>
     </div>
   </div>
 </body>
+
 </html>
